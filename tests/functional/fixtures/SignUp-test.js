@@ -1,3 +1,6 @@
+import HomePage from '../pages/HomePage'
+import SignUpPage from '../pages/SignUpPage'
+
 fixture `Sign-up Users for mail.com`
     .page `https://www.mail.com/`;
 
@@ -6,5 +9,5 @@ fixture `Sign-up Users for mail.com`
 
     test('with valid User details', async t => {
         await t 
-            .click(homePage.signupPage)
+            .click(homePage.btnSignUp)
     })
