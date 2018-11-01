@@ -1,0 +1,24 @@
+{
+  "name": "tescafe-sample-project",
+  "version": "1.0.0",
+  "description": "Sample Project to understand Testcafe tesing E2E",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automationboilerplate/testcafe-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/automationboilerplate/testcafe-boilerplate/issues"
+  },
+  "homepage": "https://github.com/automationboilerplate/testcafe-boilerplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-testcafe": "^0.9.2",
+    "testcafe": "^0.23.0"
+  }
+}
