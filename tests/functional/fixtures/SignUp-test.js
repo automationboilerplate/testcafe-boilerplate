@@ -10,4 +10,6 @@ fixture `Sign-up Users for mail.com`
     test('with valid User details', async t => {
         await t 
             .click(homePage.btnSignUp)
+
+        await signupPage.setSignUpDetails()
     })
